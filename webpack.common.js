@@ -33,6 +33,6 @@ module.exports = {
       ]
     },
     performance: {
-        hints: false
+        hints: true
     }
 };

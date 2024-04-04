@@ -57,4 +57,5 @@ def generateNode(index, previousIndex):
     if nextIndex not in finished:
         generateNode(nextIndex, index)
     
-generateNode(0, vertNeighbors['0'][0])
+generateNode(0, vertNeighbors['1'][0])
+
